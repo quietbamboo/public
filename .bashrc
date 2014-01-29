@@ -98,4 +98,4 @@ fi
 #    . /etc/bash_completion
 #fi
 
-export JAVA_HOME=/usr/local/lib/jre1.7.0_51
+export JAVA_HOME=/usr/local/lib/jre1.7.0_51/
