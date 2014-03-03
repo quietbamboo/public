@@ -98,6 +98,10 @@ fi
 #    . /etc/bash_completion
 #fi
 
-export JAVA_HOME=/usr/local/lib/jre1.7.0_51/
-export PATH=$PATH:/usr/local/lib/jre1.7.0_51/bin
-export GOPATH=~/goproj
+# BeeCloud project settings.
+export JAVA_HOME=/usr/local/lib/jdk1.7.0_51
+export JRE_HOME=${JAVA_HOME}/jre
+export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib
+export M2_HOME=/usr/local/lib/apache-maven-3.0.5
+export MAVEN_OPTS="-Xms256m -Xmx512m"
+export PATH=$PATH:$M2_HOME/bin:${JAVA_HOME}/bin
