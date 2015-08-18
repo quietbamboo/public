@@ -99,7 +99,7 @@ fi
 #fi
 
 # BeeCloud project settings.
-export JAVA_HOME=/usr/local/lib/jdk1.8.0_20
+export JAVA_HOME=/usr/local/lib/jdk1.8.0_45
 export JRE_HOME=${JAVA_HOME}/jre
 export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib
 export M2_HOME=/usr/local/lib/apache-maven-3.0.5
